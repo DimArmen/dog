@@ -1,5 +1,7 @@
 package dog
 
+import "strings"
+
 func Bark(name string) string {
-	return name + " does Woof! Woof!"
+	return strings.ToUpper(name) + " does Woof! Woof!"
 }
